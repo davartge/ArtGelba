@@ -36,10 +36,10 @@ const paintings = [
 
 {
   id: 269,
-  title: '',
+  title: 'Lovers',
   price: 2000,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765302605/480719857_967369852166287_6020250565155524097_n.jpg_eaffqu.jpg',
-  desc: '"" location: Georgia.',
+  desc: '"Lovers" location: Georgia.',
   sold: false,
   variations: [],
 },
@@ -56,10 +56,10 @@ const paintings = [
 
 {
   id: 267,
-  title: '',
+  title: 'Society',
   price: 1700,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765302356/482095316_976678551235417_705417283541253873_n.jpg_rmtvfk.jpg',
-  desc: 'Acrylic. Cardboard. 20x30 In. (51x76 Cm). location: USA. ',
+  desc: '"Society". Acrylic. Cardboard. 20x30 In. (51x76 Cm). location: USA. ',
   sold: false,
   variations: [],
 },
@@ -244,6 +244,7 @@ const paintings = [
   {
     id: 247,
     title: 'The Escape',
+    price: 2300,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765829400/b36e81d9-bb53-4c32-aee4-4d84d75b8c00_k8iyjc.jpg',
     desc: '"The Escape" canvas. Acrylic. 30X40 In. (122 x 76 cm). location: USA.',
     sold: false,
@@ -381,7 +382,7 @@ const paintings = [
     id: 231, 
     title: 'Old City',
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765829400/6541c461-3675-4fad-9ddf-c782b3952c66_zlourx.jpg',
-    desc: '"Old City". Canvas. 100X80 In. (254 × 203 cm)',
+    desc: '"Old City". Canvas. 100X80 In. (254 × 203 cm). location: Georgia.',
     price: 2000,
     sold: false,
     variations: [],
@@ -683,7 +684,7 @@ const paintings = [
 {
   id: 195,
   title: 'Got Confused',
-  price: 7500,
+  price: 1200,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765217987/c3e691_7814b18f978245cd88332788451aa304_mv2_rf5mve.jpg',
   desc: '"Got Confused". Acrylic. 100X60 In. (254×152 Cm). location: Georgia.',
   sold: false,
@@ -713,7 +714,7 @@ const paintings = [
   title: 'White Bear',
   price: 1100,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765217804/c3e691_f2b69097847140e9bc89a17613ca5cdc_mv2_uvvewu.jpg',
-  desc: '"White Bear". Ink. A4. location: USA.',
+  desc: '"White Bear". Ink. A3. location: USA.',
   sold: false,
   variations: [],
 },
@@ -1110,7 +1111,7 @@ const paintings = [
   title: 'He loves me — he loves me not',
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765212781/c3e691_00221e32161d41a29fc99aad2aff3886_mv2_d_2626_3741_s_4_2_mhdwqg.jpg',
   desc: '"He loves me — he loves me not". Ink. A4. location: USA.',
-  sold: false,
+  sold: true,
   variations: [],
 },
 
@@ -1177,7 +1178,7 @@ const paintings = [
   title: 'Skull',
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765212266/c3e691_e9fd508529ba4b6f973dd3a612bbc95e_mv2_d_5791_4600_s_4_2_wvxcum.jpg',
   desc: '"Skull". White Ink. location: Georgia.',
-  sold: false,
+  sold: true,
   variations: [],
 },
 
@@ -1289,8 +1290,9 @@ const paintings = [
 {
   id: 131,
   title: 'Time Machine',
+  price: 700,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765211573/c3e691_a9abcdb063634e8995b20dbe7f67e57f_mv2_d_3742_2567_s_4_2_irmgcs.jpg',
-  desc: '"Time Machine". Ink. A4. location: Georgia.',
+  desc: '"Time Machine". Ink. A4. location: USA.',
   sold: false,
   variations: [],
 },
@@ -1355,10 +1357,9 @@ const paintings = [
 {
   id: 124,
   title: 'King',
-  price: 270,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765211217/c3e691_5b41c10970bd47179efd28410eabe68d_mv2_d_4673_6830_s_4_2_dg5hia.jpg',
   desc: '"King". Ink. A4. location: Georgia.',
-  sold: false,
+  sold: true,
   variations: [],
 },
 
@@ -1726,7 +1727,7 @@ const paintings = [
     title: 'Sinks',
     price: 850,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765033663/78893236_121121632687215_6500364463407890432_n.jpg_dmely9.jpg',
-    desc: '"Sinks". location: USA.',
+    desc: '"Sinks". Mascara.  70X24 In (178 × 61 Cm) location: USA.',
     sold: false,
     variations: [],
 },
@@ -1900,7 +1901,7 @@ const paintings = [
     title: 'Duck',
     price: 900,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765031817/75650572_111291060336939_3572573506417721344_n.jpg_g2uora.jpg',
-    desc: '"Duck". Ink. A4. location: USA.',
+    desc: '"Duck". Ink. A3. location: USA.',
     sold: false,
     variations: [],
 },
@@ -2137,7 +2138,7 @@ const paintings = [
     title: 'Woman World',
     price: 800,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765029819/73539244_111277663671612_2875623712982302720_n.jpg_r9qyvc.jpg',
-    desc: '"Woman world". Ink. A4. location: USA.',
+    desc: '"Woman world". Ink. A3. location: USA.',
     sold: false,
     variations: [],
 },
@@ -2303,7 +2304,7 @@ const paintings = [
     title: 'Bouquet',
     price: 1200,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765028466/75636127_111268190339226_2044083388385591296_n.jpg_ygcpdh.jpg',
-    desc: '"Bouquet". Ink. A4. location: USA.',
+    desc: '"Bouquet". Ink. A3. location: USA.',
     sold: false,
     variations: [],
   },
@@ -2312,7 +2313,7 @@ const paintings = [
     title: 'Embryon',
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765028397/74271345_111251233674255_2324394948650074112_n.jpg_kcnns5.jpg',
     desc: '"Embryon". Ink, Saperavi, Coffe. location: Georgia.',
-    sold: false,
+    sold: true,
     variations: [],
   },
   {
@@ -2384,6 +2385,7 @@ const paintings = [
   {
     id: 4,
     title: 'Sink',
+    price:750,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766253730/c70fd661-c2fe-4383-8f9b-684f157cc8cd_hpslta.jpg',
     desc: '"Sink". Ink. A4. location: Georgia.',
     sold: false,
@@ -3320,3 +3322,4 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
