@@ -39,7 +39,7 @@ const paintings = [
   title: 'Lovers',
   price: 2000,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765302605/480719857_967369852166287_6020250565155524097_n.jpg_eaffqu.jpg',
-  desc: '"Lovers" location: Georgia.',
+  desc: '"Lovers". Acrylic. 100X80 In (254 × 203 cm). location: Georgia.',
   sold: false,
   variations: [],
 },
@@ -613,7 +613,7 @@ const paintings = [
   {
     id: 203,
     title: 'Cycles of Eras',
-    price: 280,
+    price: 850,
     img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765384106/481270600_974180321485240_2865821223178268676_n.jpg_wr9mfo.jpg',
     desc: '"Cycles of Eras" Canvas. Acrylic. 20X16 In. (50X40 Cm). location: USA. ',
     sold: false,
@@ -3322,4 +3322,5 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
 
